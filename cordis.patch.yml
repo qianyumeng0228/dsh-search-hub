@@ -1,0 +1,6 @@
+# Register the Search Hub management panel. This plugin does NOT register a
+# search provider — it manages the existing dsh-free-search engine pool and the
+# credentials those engines read. It only adds a sidebar panel + settings section.
+- insert:
+    - id: dsh-search-hub
+      name: dsh-search-hub
